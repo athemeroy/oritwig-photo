@@ -1,0 +1,21 @@
+{
+  "upstream": "https://github.com/DrKLO/Telegram",
+  "commit": "f2908b14133bbffbf7ab04f641ecb5bfaf533242",
+  "original_paths": {
+    "MediaController.java": "TMessagesProj/src/main/java/org/telegram/messenger/MediaController.java",
+    "PhotoViewer.java": "TMessagesProj/src/main/java/org/telegram/ui/PhotoViewer.java"
+  },
+  "sources": {
+    "MediaController.java": "ac2837023846c52f1d0bf09cbc913d1fc723a94ae029a1437711e5092afbe459",
+    "PhotoViewer.java": "a032559f2b5630b5590c92250dc27c4bcb3b4b1d05089bc4b1e7be90343affc4"
+  },
+  "outputs": {
+    "CropState.java": "2e43482152d28a859deaf7b40f3d9f7904379e0ff84e4f204fd4f450151917b0",
+    "TelegramCrop.java": "ea3e7497526d9c93204ff0b3debfcffbd83a87e3f4d955b21622a0f3432aaac1"
+  },
+  "changes": [
+    "CropState: lift fields/clone/isEmpty, remove TLObject and Telegram protocol serialization",
+    "createCroppedBitmap: preserve all bitmap geometry; replace model qualification and logging only"
+  ],
+  "limits": "Caller supplies validated orthogonal rotation and bounded nonzero crop dimensions. UI only offers center presets; freeform crop is not advertised."
+}

@@ -1,0 +1,12 @@
+AndroidX ExifInterface 1.4.2
+Copyright The Android Open Source Project. Apache License 2.0.
+Source distribution and original per-file headers are preserved in sources/.
+Pinned source/binary artifact hashes and official repository URLs are in dependencies.json.
+
+Transitive metadata/annotation libraries:
+- AndroidX annotation and annotation-jvm 1.8.1: Android Open Source Project, Apache-2.0
+- JSpecify 1.0.0: The JSpecify Authors, Apache-2.0
+- Kotlin stdlib and stdlib-common 1.7.10: JetBrains s.r.o. and Kotlin contributors, Apache-2.0
+- JetBrains annotations 13.0: JetBrains s.r.o., Apache-2.0
+Original license/copyright headers remain in their exact source archives.
+These are metadata/platform support dependencies, not the primary image engine.

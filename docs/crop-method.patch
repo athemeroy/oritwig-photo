@@ -1,0 +1,17 @@
+--- PhotoViewer.createCroppedBitmap
++++ TelegramCrop.createCroppedBitmap
+@@ -1,4 +1,4 @@
+-    public static Bitmap createCroppedBitmap(Bitmap bitmap, MediaController.CropState cropState, int[] extraTransform, boolean mirror) {
++    public static Bitmap createCroppedBitmap(Bitmap bitmap, CropState cropState, int[] extraTransform, boolean mirror) {
+         try {
+             int tr = (cropState.transformRotation + (extraTransform != null ? extraTransform[0] : 0)) % 360;
+             int inv = extraTransform != null && extraTransform.length > 1 ? extraTransform[1] : 0;
+@@ -36,7 +36,7 @@
+             canvas.drawBitmap(bitmap, matrix, new Paint(Paint.FILTER_BITMAP_FLAG));
+             return canvasBitmap;
+         } catch (Throwable e) {
+-            FileLog.e(e);
++            android.util.Log.e("TelegramCrop", "Crop render failed", e);
+         }
+         return null;
+     }

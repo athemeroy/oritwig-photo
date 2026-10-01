@@ -1,0 +1,22 @@
+{
+  "upstream_commit": "f2908b14133bbffbf7ab04f641ecb5bfaf533242",
+  "reference_aar_sha256": "990cf1396e8c7bf04230f9a64209ea8279c16c1c6c7b1414a1af7564bb1f4909",
+  "engine_files": {
+    "build.gradle": "8d8c73e800b09c9a9b1ac1cbeaf0073e5863a03c06f8ea3f2ad63d8ace930b00",
+    "src/main/AndroidManifest.xml": "343d5be1ac17cdd45d1a2f2ddc616c509290e655869125a9422a96d88aa66066",
+    "src/main/cpp/CMakeLists.txt": "0266f5c3a330f39650ea688a3dcdea775b1f358d4bddb293afa45effbd045a20",
+    "src/main/cpp/enhancement.cpp": "3c610a4e1e8b24e285ad71fb78be9e2efd5244d53b62ec5a8e6bb78ad5571f54",
+    "src/main/java/dev/oritwig/telegram/photo/SavedFilterState.java": "cfbcb601e35acdf611af21f042f6aaedc313ea847db018d805289a18f89c8494",
+    "src/main/java/dev/oritwig/telegram/photo/EngineLog.java": "5192b252863471c81966a9f972666cb3374e8ce28843a445082eac895d87a091",
+    "src/main/java/dev/oritwig/telegram/photo/PhotoEngine.java": "106ca5ae3ffef8b5a78276862634e071c107578fe4fe90c73e65aa73c2545b4e",
+    "src/main/java/dev/oritwig/telegram/photo/FilterShaders.java": "4ae76a7b7d8d9b8f4c713e134a8ad03c0ddbc340fe50760dad994efb5adc29db",
+    "src/main/java/dev/oritwig/telegram/photo/NativeEnhancement.java": "2d120b28754103711016a05b529efb7ee1d622e111ffd9abea75ea89ef57f7d7",
+    "src/main/java/dev/oritwig/telegram/photo/CurvesValue.java": "eb98c9d649b8faa47a86866145687132768ef4df42319abb0ee267d86df11e4d",
+    "src/main/java/dev/oritwig/telegram/photo/DispatchQueue.java": "204b54fd1f5a3144178186c92f8991c6ea44aaebe9919af97260ca262fb0cc7c",
+    "src/main/java/dev/oritwig/telegram/photo/CurvesToolValue.java": "1ca73a4fe2ff251fdb5b2b4c8c9030516c3fd9c9b28ccdab681026d56dfa5c18",
+    "src/main/java/dev/oritwig/telegram/photo/FilterGLThread.java": "fad420a542c88536c5e1034b5e216e983c2a2961665c45a70e8dc5d29f53c35a"
+  },
+  "engine_repository": "https://github.com/athemeroy/oritwig-photo-engine",
+  "engine_commit": "cfa8392d4d5061b25a2ee3a5dbd260f247e0081d",
+  "engine_tree_sha": "2ed627d9fda749e45ce9be84b5414781e09d5850"
+}

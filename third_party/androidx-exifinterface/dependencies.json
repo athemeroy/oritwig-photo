@@ -1,0 +1,171 @@
+[
+  {
+    "coordinate": "androidx.exifinterface:exifinterface:1.4.2",
+    "repository_url": "https://dl.google.com/dl/android/maven2/androidx/exifinterface/exifinterface/1.4.2/",
+    "artifacts": [
+      {
+        "name": "exifinterface-1.4.2.aar",
+        "sha256": "6bb2b68682a2023c55f35f941444ffea0157947b061e4fd7606ba935e2e77425",
+        "published_sha1": "21394465747d1a9f68297058907db6984e610772"
+      },
+      {
+        "name": "exifinterface-1.4.2.pom",
+        "sha256": "b11c0763f3094d28664412b7d3316bb5d1a785810fb7b4fe5f356cd5cbcd1725",
+        "published_sha1": "501cdbc01189a271d536149e203cbb0d9d0aac8b"
+      },
+      {
+        "name": "exifinterface-1.4.2.module",
+        "sha256": "6365165eb5aacc700a34b1650a2910ea01ebd819821b89af7689fa41274fb00b",
+        "published_sha1": "9d994ee33e59488401dad0b940c02ad2b5a925b9"
+      }
+    ],
+    "sources": {
+      "file": "third_party/androidx-exifinterface/sources/exifinterface-1.4.2-sources.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/exifinterface/exifinterface/1.4.2/exifinterface-1.4.2-sources.jar",
+      "sha256": "dc69c04f03e72ad38ed43774554e6612dd9ffe7299eacaab62a38df8ac2c7767",
+      "published_sha1": "f3d68188af5162e9b308eddfa83a0ab68ac9cc9f"
+    }
+  },
+  {
+    "coordinate": "androidx.annotation:annotation:1.8.1",
+    "repository_url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/",
+    "artifacts": [
+      {
+        "name": "annotation-1.8.1.pom",
+        "sha256": "b71225974ec087eb96c25ef6819f55b1c22f530e85ca446ba735fb66ed04ff5c",
+        "published_sha1": "228165dbe2b957115daa6166af380dddb2c5279a"
+      },
+      {
+        "name": "annotation-1.8.1.module",
+        "sha256": "e6386e85afdd865044e216575e493ed39a63a6325bd925379a21429c3941c8b5",
+        "published_sha1": "8060e9222bd53e8de2b2e348d99b3756d6524a4c"
+      }
+    ],
+    "sources": {
+      "file": "third_party/androidx-exifinterface/sources/annotation-1.8.1-sources.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar",
+      "sha256": "706eb1c09bbc2ad74bf0f173e1fe77ac46fd7945efd9b6409053fb3f8763eff2",
+      "published_sha1": "6e41c5bab9458ad24f11b7b58c54fbe17d9fc1b2"
+    }
+  },
+  {
+    "coordinate": "androidx.annotation:annotation-jvm:1.8.1",
+    "repository_url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/",
+    "artifacts": [
+      {
+        "name": "annotation-jvm-1.8.1.module",
+        "sha256": "c959e3b0cdc75c15efe01605fa56aa79f033e39238e150638b8fabde6aa121a0",
+        "published_sha1": "6d8ec6767470038194891be616c12e3741f2cdf5"
+      },
+      {
+        "name": "annotation-jvm-1.8.1.jar",
+        "sha256": "9aab326d9492800991854360ac248f493ce7f7c3183519309b78ace9e240f6f6",
+        "published_sha1": "b8a16fe526014b7941c1debaccaf9c5153692dbb"
+      },
+      {
+        "name": "annotation-jvm-1.8.1.pom",
+        "sha256": "d49203733aa6fae046c3a3de4e796eed347595755486a64273989844759750b4",
+        "published_sha1": "f948f21604453ee47039d125280c6cbc3f7e3a62"
+      }
+    ],
+    "sources": {
+      "file": "third_party/androidx-exifinterface/sources/annotation-jvm-1.8.1-sources.jar",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar",
+      "sha256": "5add69d7bb907ade52823bf4b15730a1a32cfce6657bfbe7eb865b00107a6369",
+      "published_sha1": "38ef8b544da94401882fb3abac556f26f46bc046"
+    }
+  },
+  {
+    "coordinate": "org.jspecify:jspecify:1.0.0",
+    "repository_url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/",
+    "artifacts": [
+      {
+        "name": "jspecify-1.0.0.jar",
+        "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab",
+        "published_sha1": "7425a601c1c7ec76645a78d22b8c6a627edee507"
+      },
+      {
+        "name": "jspecify-1.0.0.module",
+        "sha256": "d307ca77a54e18ac1ef1aaed4e5bbe014bd2f49f29e1d2f813e47c278283195b",
+        "published_sha1": "9c18ac54a30620fdc216c01faf87c0f7effbeec7"
+      },
+      {
+        "name": "jspecify-1.0.0.pom",
+        "sha256": "cdab929a3b95211f43d2090c5e2d0dfe8465960e378bc32b35841dab324433a6",
+        "published_sha1": "fae4a252aeee8a649653b2f239067bcead8f80cb"
+      }
+    ],
+    "sources": {
+      "file": "third_party/androidx-exifinterface/sources/jspecify-1.0.0-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0-sources.jar",
+      "sha256": "adf0898191d55937fb3192ba971826f4f294292c4a960740f3c27310e7b70296",
+      "published_sha1": "f1a67bbcf2f9f282baf3821046563983f16ca9b2"
+    }
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin:kotlin-stdlib:1.7.10",
+    "repository_url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.7.10/",
+    "artifacts": [
+      {
+        "name": "kotlin-stdlib-1.7.10.pom",
+        "sha256": "6cc0cf5a2bc02dee060ebb90c3535fc3ddbd7a3bab210ace3e142aaf81764d81",
+        "published_sha1": "257059438321a19e567a4593e9fed8a76814c6da"
+      },
+      {
+        "name": "kotlin-stdlib-1.7.10.jar",
+        "sha256": "e771fe74250a943e8f6346713201ff1d8cb95c3a5d1a91a22b65a9e04f6a8901",
+        "published_sha1": "d2abf9e77736acc4450dc4a3f707fa2c10f5099d"
+      }
+    ],
+    "sources": {
+      "file": "third_party/androidx-exifinterface/sources/kotlin-stdlib-1.7.10-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.7.10/kotlin-stdlib-1.7.10-sources.jar",
+      "sha256": "2176274ecf922fffdd9a7eeec18f5e3a69f7ed53dadb5add3c9a706560ac9d7f",
+      "published_sha1": "a47f6071d3ba1c695174371ffeb95ac2df2089a5"
+    }
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10",
+    "repository_url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.10/",
+    "artifacts": [
+      {
+        "name": "kotlin-stdlib-common-1.7.10.pom",
+        "sha256": "1011c63b88ee94cdff5d596937307559bc55037b733cc00ce63cda3cfae0a8eb",
+        "published_sha1": "38af1ac562fefcc5e920fc7c1290b480251c5163"
+      },
+      {
+        "name": "kotlin-stdlib-common-1.7.10.jar",
+        "sha256": "19f102efe9629f8eabc63853ad15c533e47c47f91fca09285c5bde86e59f91d4",
+        "published_sha1": "bac80c520d0a9e3f3673bc2658c6ed02ef45a76a"
+      }
+    ],
+    "sources": {
+      "file": "third_party/androidx-exifinterface/sources/kotlin-stdlib-common-1.7.10-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.10/kotlin-stdlib-common-1.7.10-sources.jar",
+      "sha256": "a00a41d8900d12e097a9227454c593c843069def0e52c788a658f24fc3dccf2e",
+      "published_sha1": "60408164a8fbfb0ae8febb3413e2f4bf5a06c97f"
+    }
+  },
+  {
+    "coordinate": "org.jetbrains:annotations:13.0",
+    "repository_url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/",
+    "artifacts": [
+      {
+        "name": "annotations-13.0.jar",
+        "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+        "published_sha1": "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9"
+      },
+      {
+        "name": "annotations-13.0.pom",
+        "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397",
+        "published_sha1": "fa7d3d07cc80547e2d15bf4839d3267c637c642f"
+      }
+    ],
+    "sources": {
+      "file": "third_party/androidx-exifinterface/sources/annotations-13.0-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar",
+      "sha256": "42a5e144b8e81d50d6913d1007b695e62e614705268d8cf9f13dbdc478c2c68e",
+      "published_sha1": "5991ca87ef1fb5544943d9abc5a9a37583fabe03"
+    }
+  }
+]
