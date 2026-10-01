@@ -1,0 +1,21 @@
+{
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "width": 1280,
+  "height": 720,
+  "fps": "10/1",
+  "durationSeconds": 52,
+  "bytes": 210233,
+  "sha256": "ebeb83f187ea143fd25b86ad86b849a7e4963d20a233e897219444e03b057de5",
+  "fullDecode": "passed",
+  "rawCaptureHashes": "passed",
+  "visualReview": "passed: all11 scenes checked for original full-screen containment, legible captions and genuine UI; thumbnail and14 original gallery PNGs reviewed",
+  "scope": {
+    "status": "complete",
+    "notDemonstrated": [],
+    "scope": "Screenshot walkthrough of one synthetic illustration: crop/rotate/mirror, Enhance 45 and Exposure 20, SAF PNG export, reopen and byte-identical re-export; not every tool or device"
+  },
+  "sourceInputsVerified": 40,
+  "exportCheck": "Both retrieved960\u00d7960 exports decoded independently, byte-identical SHA256, no EXIF/text chunks",
+  "audio": "none"
+}
