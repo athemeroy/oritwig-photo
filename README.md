@@ -1,6 +1,7 @@
 # Oritwig Photo
 
-An offline Android photo finisher powered by Telegram's actual photo engine.
+An offline Android reference app for the retained Telegram photo-filter and crop
+pipeline, with a bounded local photo-finishing workflow.
 
 Developer preview 0.1.0. The complete import/edit/export/reopen workflow and
 37 native assertions pass on Android 8 / API 26. Physical-device and Android 35
@@ -53,12 +54,21 @@ Primary upstream: [Telegram Android at f2908b14](https://github.com/DrKLO/Telegr
 | Included UI | Rich photo/video, paint and media tools | Focused light/color controls, curves, centered crop presets, rotate/mirror, reset and settings |
 | Deliberate limits | Broader editing and messaging features | No messaging, HDR, video, paint, stickers, layers or freeform crop; optional skin smoothing and its private tone mapper are omitted because their immediate port provenance was not established |
 
-The useful difference is access to the mature editing engine as an independent,
-account-free tool and reusable module. This is not a claim of novel processing
-algorithms. Our new work is the local UI, platform file adapters, error/lifecycle
+The reusable candidate is the pinned Telegram GLES filter chain, native `calcCDT`
+enhancement and crop geometry when a project specifically needs that pipeline's
+behavior. Our new work is the local UI, platform file adapters, error/lifecycle
 handling and one-session preference storage; upstream account-backed drafts are
 not reused or replaced with a new database. [Exact source changes](docs/PROVENANCE.md)
-identify retained code, removals and each necessary addition.
+identify retained code, removals and each necessary addition. Full Telegram-editor
+parity and cross-device pixel equivalence have not been established.
+
+For generic adjustments, [GPUImage for Android](https://github.com/wasabeef/android-gpuimage#readme)
+already supplies reusable OpenGL filters, and [uCrop](https://github.com/Yalantis/uCrop#readme)
+already supplies an Android cropping library and sample. Oritwig Photo is worth
+evaluating for the specific retained Telegram pipeline or this reference workflow.
+There is no demonstrated image-quality, performance or integration advantage over
+those alternatives. The validation below covers this preview's stated workflow,
+not a comparative benchmark.
 
 ## Install a preview
 
